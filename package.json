@@ -1,6 +1,6 @@
 {
   "name": "@golumin/turnstile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Astro integration for Cloudflare Turnstile: a virtual:turnstile verifier that reads its secret where the host keeps it, and says plainly when there is none.",
   "keywords": [
     "astro-integration",
@@ -20,8 +20,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "astro": ">=6",
-    "vite": ">=6"
+    "astro": ">=6"
   },
   "engines": {
     "node": ">=20"
