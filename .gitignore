@@ -1,3 +1,9 @@
 node_modules
 dist
 .astro
+
+# Not committed: this is a library consumed as a git dependency, and npm
+# obeys a committed lockfile while preparing that dependency — imposing our
+# exact transitive pins on every consuming site's CI. A just-published
+# version we happened to resolve then fails to resolve there.
+package-lock.json
